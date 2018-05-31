@@ -12,6 +12,10 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detailImageView: UIImageView!
     
     var cellImages = ""
+    var cellAddress = ""
+    var cellType = ""
+    var cellName = ""
+    var cellMenu = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
